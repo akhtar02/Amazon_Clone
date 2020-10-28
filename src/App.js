@@ -1,4 +1,5 @@
 import React from 'react'
+import Header from './Header'
 import './App.css';
 import {
   BrowserRouter as Router,
@@ -13,12 +14,15 @@ function App() {
       <div className="App">
     <Switch>
       <Route path = "/Checkout">
+      <Header />
         <h1>CheckOut</h1>
       </Route>
       <Route path = "/Login">
+      <Header />
         <h1>Login</h1>
       </Route>
       <Route path="/">
+      <Header />
         <h1>Home Page !!</h1>
       </Route>
      
@@ -26,6 +30,7 @@ function App() {
       </div>
     </Router>
     
+  
 
 
     //  <h1>Let's build an Amazon Clone with React Js</h1>
