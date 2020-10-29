@@ -8,6 +8,8 @@
     z-index: 100;
 
 }
+
+
 .header_logo{
     width: 100px;
     object-fit: contain;
@@ -55,10 +57,19 @@
     margin-right: 10px;
     color: white;
   }
-  header_link{
+  .header_link{
       color: #fff;
       text-decoration: none;
   }
   .header_optionBasket{
     color: #fff;
   }
+
+
+
+
+
+
+
+
+
