@@ -1,9 +1,8 @@
 import React from 'react'
 import Header from './Header'
 import Home from './Home'
+import Checkout from "./Checkout";
 import { useStateValue } from "./StateProvider";
-// import Product from './Product'
-
 import './App.css';
 import {
   BrowserRouter as Router,
@@ -19,7 +18,7 @@ function App() {
     <Switch>
       <Route path = "/Checkout">
       <Header />
-        <h1>CheckOut</h1>
+        <Checkout />
       </Route>
       <Route path = "/Login">
       <Header />
