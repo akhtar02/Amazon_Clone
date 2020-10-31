@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from './Header'
 import Home from './Home'
+import { useStateValue } from "./StateProvider";
 // import Product from './Product'
 
 import './App.css';
