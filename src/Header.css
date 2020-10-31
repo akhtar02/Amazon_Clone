@@ -62,10 +62,15 @@
       text-decoration: none;
   }
   .header_optionBasket{
+    display: flex;
+    align-items: center;
     color: #fff;
   }
 
-
+  .header_basketCount {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 
 
 
