@@ -2,6 +2,7 @@ import React from 'react'
 import Header from './Header'
 import Home from './Home'
 import Checkout from "./Checkout";
+import Login from './Login'
 import { useStateValue } from "./StateProvider";
 import './App.css';
 import {
@@ -22,7 +23,7 @@ function App() {
       </Route>
       <Route path = "/Login">
       <Header />
-        <h1>Login</h1>
+        <Login />
       </Route>
 
       <Route path="/">
